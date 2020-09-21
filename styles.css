@@ -34,11 +34,17 @@ body {
     font-size: 13.5px;
     color: white;
     background: #0077c5;
+    cursor: pointer;
 }
 
-.sign-in p {
+.sign-in span {
     font-size: 12px;
     margin: 0;
+}
+
+.sign-in a {
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .sign-in__text {
@@ -46,11 +52,7 @@ body {
     line-height: 1.15rem;
 }
 
-.sign-in a {
-    text-decoration: none;
-}
-
-.sign-in__text--link {
+.sign-in__text a {
     color: #0077c5;
 }
 
@@ -213,6 +215,7 @@ form button {
     border-radius: 4px;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
     margin: 1rem 0;
+    cursor: pointer;
 }
 
 form i {
@@ -261,6 +264,14 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+footer ul a {
+    color: #505050;
+}
+
+footer ul li:hover {
+    text-decoration: underline;
 }
 
 footer ul {
